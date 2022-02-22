@@ -62,7 +62,7 @@ function distributePayoutsOf(
     _External references:_
 
     * [`ownerOf`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/46ce0cfa3323a2787864f884b3c12960bc53b233/contracts/token/ERC721/ERC721.sol#L70)
-3.  If the funding cycle during which the distribtion is being made has a fee, and if its project isn't the JuiceboxDAO project with an ID of 1, take a fee from the withdrawal into the JuiceboxDAO project.
+3.  If the funding cycle during which the distribtion is being made has a fee, and if its project isn't the CandyboxDAO project with an ID of 1, take a fee from the withdrawal into the CandyboxDAO project.
 
     ```solidity
     // Take a fee from the _distributedAmount, if needed.

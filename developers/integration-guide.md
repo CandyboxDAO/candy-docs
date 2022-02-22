@@ -1,30 +1,30 @@
 # Integration Guide
 
-## Hooking up your contract to a Juicebox project
+## Hooking up your contract to a Candybox project
 
-This guide is for users who would like to hook up their contract to a pre-existing Juicebox project. Right now, the primary use case for this is to route funds to a Juicebox project when certain events occur (e.g., minting an ERC721 token).
+This guide is for users who would like to hook up their contract to a pre-existing Candybox project. Right now, the primary use case for this is to route funds to a Candybox project when certain events occur (e.g., minting an ERC721 token).
 
-Add the Juicebox contract dependency to your project:
+Add the Candybox contract dependency to your project:
 
 ```
 $ yarn add @jbox/sol
 ```
 
-Inherit from `JuiceboxProject` in your contract. You will need to provide a `Project ID` and [`Terminal Directory`](../protocol-v1/terminal-directory.md) address to the `JuiceboxProject` constructor.
+Inherit from `CandyboxProject` in your contract. You will need to provide a `Project ID` and [`Terminal Directory`](../protocol-v1/terminal-directory.md) address to the `CandyboxProject` constructor.
 
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.6;
 
-import "@jbox/sol/contracts/abstract/JuiceboxProject.sol";
+import "@jbox/sol/contracts/abstract/CandyboxProject.sol";
 
-contract HelloWorldContract is JuiceboxProject {
+contract HelloWorldContract is CandyboxProject {
   ...
 
   constructor(
       uint256 _projectID,
       ITerminalDirectory _terminalDirectory
-    ) JuiceboxProject(_projectID, _terminalDirectory) {}
+    ) CandyboxProject(_projectID, _terminalDirectory) {}
 
   ...
 }

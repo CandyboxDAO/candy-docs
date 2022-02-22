@@ -3,11 +3,11 @@
 #### What everyone needs to know
 
 * An operator is an address that has been given permission to take one or more actions on another address's behalf.
-* Several functions throughout the Juicebox ecosystem that impact a project are available only to the a project's owner, or to any operator address that the project's owner has set.
+* Several functions throughout the Candybox ecosystem that impact a project are available only to the a project's owner, or to any operator address that the project's owner has set.
 * Operator permissions are stored and managed in the [`JBOperatorStore`](../../specifications/contracts/jboperatorstore/), where they can be added or revoked at any time by the address being operated on behalf of.
 * See the [Projects topic](project.md) for more info on admin actions that are operatable.
 * Operator permissions are expressed in terms of indexes defined in [`JBOperations`](../../specifications/libraries/jboperations.md).
-* Operator permissions apply to a specific domain, which is used in the Juicebox ecosystem to allow addresses to give permissions that only apply to a specific project (where the domain is the projectId). A domain of 0 is a wildcard domain.
+* Operator permissions apply to a specific domain, which is used in the Candybox ecosystem to allow addresses to give permissions that only apply to a specific project (where the domain is the projectId). A domain of 0 is a wildcard domain.
 
 #### What you'll want to know if you're building
 

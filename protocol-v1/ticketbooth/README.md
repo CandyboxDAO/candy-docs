@@ -21,7 +21,7 @@ The total supply of a project's tickets and the balance of each account are calc
 
 * **\_projects:** A Projects contract which mints ERC-721's that represent project ownership and transfers.
 * **\_operatorStore:** A contract storing operator assignments.
-* **\_terminalDirectory:** A directory of a project's current Juicebox terminal to receive payments in.
+* **\_terminalDirectory:** A directory of a project's current Candybox terminal to receive payments in.
 
 ```
 constructor(

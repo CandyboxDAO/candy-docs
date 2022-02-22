@@ -6,7 +6,7 @@ Interface: [`IJBTerminal`](../../../../interfaces/ijbterminal.md)
 
 {% tabs %}
 {% tab title="Step by step" %}
-**An address that serves as this terminal's delegate when making requests to juicebox ecosystem contracts.**
+**An address that serves as this terminal's delegate when making requests to candybox ecosystem contracts.**
 
 #### Definition
 

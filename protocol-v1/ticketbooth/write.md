@@ -8,7 +8,7 @@ Deploys an owner's Ticket ERC-20 token contract.
 **Params:**
 
 * \_**projectId:** The ID of the project being issued tickets.
-* **\_name:** The ERC-20's name. " Juicebox ticket" will be appended.
+* **\_name:** The ERC-20's name. " Candybox ticket" will be appended.
 * **\_symbol:** The ERC-20's symbol. "j" will be prepended.
 
 ```

@@ -2,14 +2,14 @@
 
 Contract: [`JBDirectory`](../)‌
 
-**Addresses that can set a project's controller. These addresses/contracts have been vetted and verified by Juicebox owners.** 
+**Addresses that can set a project's controller. These addresses/contracts have been vetted and verified by Candybox owners.** 
 
 # Definition
 
 ```solidity
 /**
   @notice
-  Addresses that can set a project's controller. These addresses/contracts have been vetted and verified by Juicebox owners.
+  Addresses that can set a project's controller. These addresses/contracts have been vetted and verified by Candybox owners.
 */
 mapping(address => bool) public override isAllowedToSetController;
 ```

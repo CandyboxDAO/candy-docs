@@ -4,8 +4,8 @@
 
 ```javascript
 /** 
-  @param _projectId The ID of the Juicebox project being governed.
-  @param _terminalDirectory A directory of a project's current Juicebox terminal to receive payments in.
+  @param _projectId The ID of the Candybox project being governed.
+  @param _terminalDirectory A directory of a project's current Candybox terminal to receive payments in.
 */
 constructor(uint256 _projectId, ITerminalDirectory _terminalDirectory)
 ```

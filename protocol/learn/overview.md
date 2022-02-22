@@ -5,7 +5,7 @@ description: What's in the V2 protocol
 # Overview
 
 * <mark style="color:orange;">**Deploy an NFT that represents ownership over your project**</mark>\
-  Whichever address owns this NFT has administrative privileges to configure treasury parameters within the Juicebox ecosystem. It can also be used by other Web3 ecosystems to extend functionality to projects.
+  Whichever address owns this NFT has administrative privileges to configure treasury parameters within the Candybox ecosystem. It can also be used by other Web3 ecosystems to extend functionality to projects.
 * <mark style="color:orange;">**Configure funding cycles for your project**</mark>\
   Funding cycles define contractual constraints according to which your project will operate.\
   The following properties can be configured into a funding cycle:
@@ -52,7 +52,7 @@ description: What's in the V2 protocol
 * <mark style="color:orange;">**Ballot**</mark>\
   The address of a contract that adheres to [`IJBFundingCycleBallot`](../specifications/interfaces/ijbfundingcycleballot.md), which can provide custom criteria that prevents a project owner from enacting funding cycle reconfigurations.\
   \
-  A simple implementation commonly used by Juicebox projects is to force reconfigurations to be submitted by the project owner at least X days before the end of the current funding cycle, giving the community foresight into any misconfigurations of abuses of power before they take effect.\
+  A simple implementation commonly used by Candybox projects is to force reconfigurations to be submitted by the project owner at least X days before the end of the current funding cycle, giving the community foresight into any misconfigurations of abuses of power before they take effect.\
   \
   More complex implementation might include on-chain governance.
 
@@ -88,9 +88,9 @@ description: What's in the V2 protocol
 <!---->
 
 * <mark style="color:orange;">**Hold fees**</mark>\
-  Any distributions the project makes from its treasury during a funding cycle configured to hold fees will not pay fees directly to the protocol project's treasury. Instead, the project will have the option to add the distributed funds back into its treasury to unlock the held fees. At any point, the project or JuiceboxDAO can process the held fees, which will channel them through to the protocol project's treasury as usual.\
+  Any distributions the project makes from its treasury during a funding cycle configured to hold fees will not pay fees directly to the protocol project's treasury. Instead, the project will have the option to add the distributed funds back into its treasury to unlock the held fees. At any point, the project or CandyboxDAO can process the held fees, which will channel them through to the protocol project's treasury as usual.\
   \
-  This allows a project to withdraw funds and later add them back into their Juicebox treasury without incurring fees.\
+  This allows a project to withdraw funds and later add them back into their Candybox treasury without incurring fees.\
   \
   This applies to funds distributions from the distribution limit and from its overflow allowance.
 
@@ -115,11 +115,11 @@ description: What's in the V2 protocol
   \
   By default, the protocol provides a transaction for projects to deploy ERC-20 tokens, which can be used in on-chain voting governor contracts. 
 * <mark style="color:orange;">**Splits**</mark>\
-  A project can pre-program token distributions to splits. The destination of a split can be an Ethereum address, the project ID of another project's Juicebox treasury (the split will allow you to configure the beneficiary of that project's tokens that get minted in response to the distribution), or to the `allocate` function of any contract that adheres to [`IJBSplitAllocator`](../specifications/interfaces/ijbsplitallocator.md).\
+  A project can pre-program token distributions to splits. The destination of a split can be an Ethereum address, the project ID of another project's Candybox treasury (the split will allow you to configure the beneficiary of that project's tokens that get minted in response to the distribution), or to the `allocate` function of any contract that adheres to [`IJBSplitAllocator`](../specifications/interfaces/ijbsplitallocator.md).\
   \
   ETH splits to Allocators get sent directly to the `allocate` function. Distribution of other assets to Allocator contracts (ERC-20's, ERC-721's, ERC-1155's, etc) will trigger the `allocate` function after a successful transfer.
 * <mark style="color:orange;">**Custom treasury strategies**</mark>\
-  Funding cycles can be configured to use an [`IJBFundingCycleDataSource`](../specifications/interfaces/ijbfundingcycledatasource.md), [`IJBPayDelegate`](../specifications/interfaces/ijbpaydelegate.md), and [`IJBRedemptionDelegate`](../specifications/interfaces/ijbredemptiondelegate.md) to extend or override the default Juicebox protocol's behavior that defines what happens when an address tries to make a payment to your project's treasury, and what happens when someone tries to redeem your tokens during any particular funding cycle.
+  Funding cycles can be configured to use an [`IJBFundingCycleDataSource`](../specifications/interfaces/ijbfundingcycledatasource.md), [`IJBPayDelegate`](../specifications/interfaces/ijbpaydelegate.md), and [`IJBRedemptionDelegate`](../specifications/interfaces/ijbredemptiondelegate.md) to extend or override the default Candybox protocol's behavior that defines what happens when an address tries to make a payment to your project's treasury, and what happens when someone tries to redeem your tokens during any particular funding cycle.
 * <mark style="color:orange;">**Accept multiple tokens**</mark>\
   A project can specify any number of payment terminal contracts where it can receive funds denominated in various tokens. This allows projects to create distinct rules for accepting ETH, any ERC-20, or any asset in general.\
   \

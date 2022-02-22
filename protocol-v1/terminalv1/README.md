@@ -26,7 +26,7 @@ On this page you'll find the documentation for the constructor and the events, f
 * **\_operatorStore**: A contract storing operator assignments.
 * **\_modStore**: A storage for a project's mods.
 * **\_prices**: A price feed contract to use.
-* **\_terminalDirectory**: A directory of a project's current Juicebox terminal to receive payments in.
+* **\_terminalDirectory**: A directory of a project's current Candybox terminal to receive payments in.
 
 ```
 constructor(

@@ -96,7 +96,7 @@ function _distributeToPayoutSplitsOf(
         );
         // Otherwise, if a project is specified, make a payment to it.
       } else if (_split.projectId != 0) {
-        // Get a reference to the Juicebox terminal being used.
+        // Get a reference to the Candybox terminal being used.
         IJBTerminal _terminal = directory.primaryTerminalOf(_split.projectId, token);
 
         // The project must have a terminal to send funds to.
@@ -228,7 +228,7 @@ function _distributeToPayoutSplitsOf(
         );
         // Otherwise, if a project is specified, make a payment to it.
       } else if (_split.projectId != 0) {
-        // Get a reference to the Juicebox terminal being used.
+        // Get a reference to the Candybox terminal being used.
         IJBTerminal _terminal = directory.primaryTerminalOf(_split.projectId, token);
 
         // The project must have a terminal to send funds to.

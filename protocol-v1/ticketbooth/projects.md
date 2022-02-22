@@ -7,7 +7,7 @@
   @param _operatorStore A contract storing operator assignments.
 */
 constructor(IOperatorStore _operatorStore)
-    ERC721("Juicebox project", "JUICEBOX PROJECT")
+    ERC721("Candybox project", "CANDYBOX PROJECT")
     Operatable(_operatorStore)
 ```
 

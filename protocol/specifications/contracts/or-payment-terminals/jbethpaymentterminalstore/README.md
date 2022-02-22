@@ -10,7 +10,7 @@ Overview
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/JBETHPaymentTerminalStore.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-contracts-v2/blob/main/contracts/JBETHPaymentTerminalStore.sol" %}
 
 ### **Addresses**
 

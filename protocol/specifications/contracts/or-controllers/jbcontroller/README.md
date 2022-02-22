@@ -10,7 +10,7 @@ description: >-
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/JBController.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-contracts-v2/blob/main/contracts/JBController.sol" %}
 
 ### **Addresses**
 
@@ -20,7 +20,7 @@ Ethereum mainnet: _Not yet deployed_\
 
 | Name                                                                       | Description                                                                                                                                                     |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**`IJBController`**](../../../interfaces/ijbcontroller.md) | General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the Juicebox protocol's rules. |
+| [**`IJBController`**](../../../interfaces/ijbcontroller.md) | General interface for the generic controller methods in this contract that interacts with funding cycles and tokens according to the Candybox protocol's rules. |
 
 ### **Inheritance**
 

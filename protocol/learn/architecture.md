@@ -1,25 +1,25 @@
 ---
 description: >-
-  Here you'll find information about how the Juicebox protocol is organized and
+  Here you'll find information about how the Candybox protocol is organized and
   implemented. All documentation in this section refers to the upcoming V2
   version of the protocol.
 ---
 
 # Architecture
 
-The Juicebox protocol is made up of 7 core contracts and 3 surface contracts.
+The Candybox protocol is made up of 7 core contracts and 3 surface contracts.
 
 * Core contracts store all the independent components that make the protocol work.
 * Surface contracts glue core contracts together and manage funds. Anyone can write new surface contracts for projects to use.
 
 ## Core contracts
 
-The first two core contracts are pretty self explanatory. They store the core Juicebox components of the protocol.
+The first two core contracts are pretty self explanatory. They store the core Candybox components of the protocol.
 
 * [`JBTokenStore`](../specifications/contracts/jbtokenstore/) manages token minting and burning for all projects.
 * [`JBFundingCycleStore`](../specifications/contracts/jbfundingcyclestore/) manages funding cycle configurations and scheduling. Funding cycles are represented as a [`JBFundingCycle`](../specifications/data-structures/jbfundingcycle.md) data structure.
 
-The next few are a little more generic. They don't know anything specific to Juicebox, and are open for use by other protocols or future Juicebox extensions.
+The next few are a little more generic. They don't know anything specific to Candybox, and are open for use by other protocols or future Candybox extensions.
 
 *   [`JBProjects`](../specifications/contracts/jbprojects/) manages and tracks ownership over projects, which are represented as ERC-721 tokens.
 
@@ -43,7 +43,7 @@ The last core contract stores info about which surface contracts each project is
 There are currently 3 surface contracts that manage how projects manage funds and define how all core contracts should be used together. Anyone can write new surface contracts for projects to use.
 
 * [`JBController`](../specifications/contracts/or-controllers/jbcontroller/) stitches together funding cycles and community tokens, allowing for curated control, accounting, and token management.
-* [`JBETHPaymentTerminal`](../specifications/contracts/or-payment-terminals/jbethpaymentterminal/) manages all inflows and outflows of ETH into the Juicebox ecosystem.
+* [`JBETHPaymentTerminal`](../specifications/contracts/or-payment-terminals/jbethpaymentterminal/) manages all inflows and outflows of ETH into the Candybox ecosystem.
 * [`JBETHPaymentTerminalStore`](../specifications/contracts/or-payment-terminals/jbethpaymentterminalstore/) manages balance accounting data on the `JBETHPaymentTerminal`'s behalf.
 
 The `JBETHPaymentTerminal` inherits from the `IJBTerminal` interface. Projects are welcome to roll their own `IJBTerminal` to accept funds through. This can be useful to accept other tokens as payment, bypass protocol fees, or attempt some other funky design. A project can add/remove terminals from the Core [`JBDirectory`](../specifications/contracts/jbdirectory/) Contract using the [`JBDirectory.addTerminalsOf(...)`](../specifications/contracts/jbdirectory/write/addterminalsof.md) and [`JBDirectory.removeTerminalOf(...)`](../specifications/contracts/jbdirectory/write/removeterminalof.md) functions.

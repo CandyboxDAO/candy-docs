@@ -1,12 +1,12 @@
 ---
 description: >-
   A breakdown of how projects can design their treasury mechanism when building
-  on the juicebox protocol.
+  on the candybox protocol.
 ---
 
 # Project design
 
-In order to understand what Juicebox can do for your project, all you have to do is understand how one transaction works: [`JBController.launchProjectFor(...)`](../specifications/contracts/or-controllers/jbcontroller/write/launchprojectfor.md).
+In order to understand what Candybox can do for your project, all you have to do is understand how one transaction works: [`JBController.launchProjectFor(...)`](../specifications/contracts/or-controllers/jbcontroller/write/launchprojectfor.md).
 
 ```solidity
 function launchProjectFor(
@@ -124,7 +124,7 @@ Here's what happens when using an overflow allowance instead:
 
 #### Grouped splits
 
-If you wish to automatically split treasury payouts or reserved token distributions between various destinations (addresses, other Juicebox projects, or split allocator contracts), add some grouped splits to the [`launchProjectFor`](../specifications/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) transaction.
+If you wish to automatically split treasury payouts or reserved token distributions between various destinations (addresses, other Candybox projects, or split allocator contracts), add some grouped splits to the [`launchProjectFor`](../specifications/contracts/or-controllers/jbcontroller/write/launchprojectfor.md) transaction.
 
 ```solidity
 {
@@ -166,11 +166,11 @@ If you wish to automatically split treasury payouts or reserved token distributi
 }
 ```
 
-* If an `allocator` is provided, the split will try to send the split funds to it. Otherwise if a `projectId` is provided the split will try to send funds to that projectId's Juicebox treasury, sending the project's tokens to the `beneficiary`. Otherwise the split funds will be sent directly to the `beneficiary`.
+* If an `allocator` is provided, the split will try to send the split funds to it. Otherwise if a `projectId` is provided the split will try to send funds to that projectId's Candybox treasury, sending the project's tokens to the `beneficiary`. Otherwise the split funds will be sent directly to the `beneficiary`.
 * There are 4 splits in this group.
   * The first will send 5% of the total directly to address `0x0123456789012345678901234567890123456789`.
-  * The second will send 6% to the Juicebox treasury of project with ID 420. This project's tokens will be sent to address `0x0123456789012345678901234567890123456789.`
-  * The third will send 6% to the Juicebox treasury of project with ID 421. This project's tokens will be sent to address `0x0123456789012345678901234567890123456789.`, and they will be automatically claimed as ERC-20's in the beneficiary's wallet if the project has issued them due to the `preferClaimed` flag being `true`.
+  * The second will send 6% to the Candybox treasury of project with ID 420. This project's tokens will be sent to address `0x0123456789012345678901234567890123456789.`
+  * The third will send 6% to the Candybox treasury of project with ID 421. This project's tokens will be sent to address `0x0123456789012345678901234567890123456789.`, and they will be automatically claimed as ERC-20's in the beneficiary's wallet if the project has issued them due to the `preferClaimed` flag being `true`.
   * The last will send 7% to the `allocate` function in contract with address `0x6969696969696969696969696969696969696969` which must adhere to [`IJBSplitAllocator`](../specifications/interfaces/ijbsplitallocator.md). This function will also receive all contextual information regarding the spit for it to do custom things with. This split will not be editable or removable from the group during this funding cycle configuration while the `lockedUntil` date has yet to passsed.
   * All the remaining funds (100% - 5% - 6% - 6% - 7% = 76%) will be sent to the project owner's address.
 * Since the configured split group is 1 ([which represents ETH payouts](../specifications/libraries/jbsplitsgroups.md)), the protocol will use this group of splits when distributing funds from the ETH terminal.

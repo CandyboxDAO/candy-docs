@@ -9,13 +9,13 @@ description: >-
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/JBToken.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-contracts-v2/blob/main/contracts/JBToken.sol" %}
 
 ### **Interfaces**
 
 | Name                                                     | Description                                                                                                                              |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [**`IJBToken`**](../../interfaces/ijbtoken.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Juicebox protocol's rules. |
+| [**`IJBToken`**](../../interfaces/ijbtoken.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Candybox protocol's rules. |
 
 
 ### **Inheritance**

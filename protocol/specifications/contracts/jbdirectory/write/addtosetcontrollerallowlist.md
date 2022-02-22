@@ -8,9 +8,9 @@ Interface: [`IJBDirectory`](../../../interfaces/ijbdirectory.md)
 {% tab title="Step by step" %}
 **Add a controller to the list of trusted controllers.**
 
-_The owner (Juicebox multisig) can add addresses which are allowed to change a project's controller._ _Those addresses are known and vetted controllers as well as contracts designed to launch new projects._ _This is not a requirement for all controllers. However, unknown controllers may require additional transactions to perform certain operations._
+_The owner (Candybox multisig) can add addresses which are allowed to change a project's controller._ _Those addresses are known and vetted controllers as well as contracts designed to launch new projects._ _This is not a requirement for all controllers. However, unknown controllers may require additional transactions to perform certain operations._
 
-_If you would like an address/contract allowlisted, please reach out to JuiceboxDAO._
+_If you would like an address/contract allowlisted, please reach out to CandyboxDAO._
 
 #### Definition
 
@@ -66,13 +66,13 @@ function addToSetControllerAllowlist(address _address) external override onlyOwn
   Add a controller to the list of trusted controllers.
 
   @dev
-  The owner (Juicebox multisig) can add addresses which are allowed to change
+  The owner (Candybox multisig) can add addresses which are allowed to change
   a project's controller. Those addresses are known and vetted controllers as well as
   contracts designed to launch new projects. This is not a requirement for all controllers.
   However, unknown controllers may require additional transactions to perform certain operations.
 
   @dev
-  If you would like an address/contract allowlisted, please reach out to JuiceboxDAO.
+  If you would like an address/contract allowlisted, please reach out to CandyboxDAO.
 
   @param _address the allowed address to be added.
 */

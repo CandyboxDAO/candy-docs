@@ -1,6 +1,6 @@
 ---
 description: >-
-  This contract manages the Juicebox ecosystem, serves as a payment terminal,
+  This contract manages the Candybox ecosystem, serves as a payment terminal,
   and custodies all funds.
 ---
 
@@ -140,7 +140,7 @@ event Migrate(
   @param _ticketBooth A contract that manages Ticket printing and redeeming.
   @param _modStore A storage for a project's mods.
   @param _prices A price feed contract to use.
-  @param _terminalDirectory A directory of a project's current Juicebox terminal to receive payments in.
+  @param _terminalDirectory A directory of a project's current Candybox terminal to receive payments in.
 */
 constructor(
     IProjects _projects,
@@ -192,7 +192,7 @@ function balanceOf(uint256 _projectId) external view returns (uint256)
 ```
 
 ```javascript
-/// @notice The percent fee the Juicebox project takes from tapped amounts. Out of 200.
+/// @notice The percent fee the Candybox project takes from tapped amounts. Out of 200.
 function fee() external view returns (uint256)
 ```
 

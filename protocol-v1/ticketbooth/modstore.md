@@ -6,7 +6,7 @@
 /** 
   @param _projects The contract storing project information
   @param _operatorStore A contract storing operator assignments.
-  @param _terminalDirectory A directory of a project's current Juicebox terminal to receive payments in.
+  @param _terminalDirectory A directory of a project's current Candybox terminal to receive payments in.
 */
 constructor(
     IProjects _projects,

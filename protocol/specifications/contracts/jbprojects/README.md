@@ -9,7 +9,7 @@ description: >-
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-juicehouse/blob/version/2.2/packages/hardhat/contracts/JBProjects.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-candyhouse/blob/version/2.2/packages/hardhat/contracts/JBProjects.sol" %}
 
 ### **Addresses**
 
@@ -19,7 +19,7 @@ Ethereum mainnet: _Not yet deployed_\
 
 | Name                                                 | Description                                                                                                                              |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [**`IJBProjects`**](../../interfaces/ijbprojects.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Juicebox protocol's rules. |
+| [**`IJBProjects`**](../../interfaces/ijbprojects.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Candybox protocol's rules. |
 
 ### **Inheritance**
 
@@ -32,8 +32,8 @@ Ethereum mainnet: _Not yet deployed_\
 
 ```solidity
 constructor(IJBOperatorStore _operatorStore)
-  ERC721('Juicebox Projects', 'JUICEBOX')
-  EIP712('Juicebox Projects', '1')
+  ERC721('Candybox Projects', 'CANDYBOX')
+  EIP712('Candybox Projects', '1')
   JBOperatable(_operatorStore)
 {}
 ```

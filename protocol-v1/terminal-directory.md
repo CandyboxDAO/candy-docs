@@ -8,7 +8,7 @@ Kovan: `0x71BA69044CbD951AC87124cBEdbC0334AB21F26D`
 
 ## Contract
 
-[contracts/TerminalDirectory.sol](https://github.com/jbx-protocol/juicehouse/blob/main/packages/hardhat/contracts/TerminalDirectory.sol)
+[contracts/TerminalDirectory.sol](https://github.com/candyboxdao/candyhouse/blob/main/packages/hardhat/contracts/TerminalDirectory.sol)
 
 ## Purpose
 
@@ -63,7 +63,7 @@ function projects() external view returns (IProjects)
 ```
 
 ```javascript
-/// @notice For each project ID, the juicebox terminal that the direct payment addresses are proxies for.
+/// @notice For each project ID, the candybox terminal that the direct payment addresses are proxies for.
 function terminalOf(uint256 _projectId) external view returns (ITerminal)
 ```
 
@@ -115,7 +115,7 @@ function deployAddress(uint256 _projectId, string calldata _memo)
 ```javascript
 /** 
   @notice 
-  Update the juicebox terminal that payments to direct payment addresses will be forwarded for the specified project ID.
+  Update the candybox terminal that payments to direct payment addresses will be forwarded for the specified project ID.
 
   @param _projectId The ID of the project to set a new terminal for.
   @param _terminal The new terminal to set.

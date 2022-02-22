@@ -1,5 +1,5 @@
 ---
-description: Manages all inflows and outflows of ETH into the Juicebox ecosystem.
+description: Manages all inflows and outflows of ETH into the Candybox ecosystem.
 ---
 
 # JBETHPaymentTerminal
@@ -8,7 +8,7 @@ description: Manages all inflows and outflows of ETH into the Juicebox ecosystem
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/JBETHPaymentTerminal.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-contracts-v2/blob/main/contracts/JBETHPaymentTerminal.sol" %}
 
 ### **Addresses**
 
@@ -18,7 +18,7 @@ Ethereum mainnet: _Not yet deployed_\
 
 | Name                                                                                       | Description                                                                                                                                      |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [**`IJBETHPaymentTerminal`**](../../../interfaces/ijbethpaymentterminal.md) | General interface for the methods in this contract that send and receive funds according to the Juicebox protocol's rules.                       |
+| [**`IJBETHPaymentTerminal`**](../../../interfaces/ijbethpaymentterminal.md) | General interface for the methods in this contract that send and receive funds according to the Candybox protocol's rules.                       |
 | [**`IJBTerminal`**](../../../interfaces/ijbterminal.md)                     | Allows projects to migrate to this contract from other IJBTerminals (like TerminalV1), and to facilitate a project's future migration decisions. |
 
 ### **Inheritance**

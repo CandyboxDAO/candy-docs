@@ -10,7 +10,7 @@ description: >-
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-juicehouse/blob/version/2.2/packages/hardhat/contracts/JBOperatorStore.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-candyhouse/blob/version/2.2/packages/hardhat/contracts/JBOperatorStore.sol" %}
 
 ### **Addresses**
 
@@ -20,7 +20,7 @@ Ethereum mainnet: _Not yet deployed_\
 
 | Name                                                           | Description                                                                                                                              |
 | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [**`IJBOperatorStore`**](../../interfaces/ijboperatorstore.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Juicebox protocol's rules. |
+| [**`IJBOperatorStore`**](../../interfaces/ijboperatorstore.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Candybox protocol's rules. |
 
 ## Events
 

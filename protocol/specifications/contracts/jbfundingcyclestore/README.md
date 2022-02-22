@@ -8,7 +8,7 @@ description: Manages funding cycle scheduling.
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/JBFundingCycleStore.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-contracts-v2/blob/main/contracts/JBFundingCycleStore.sol" %}
 
 ### **Addresses**
 
@@ -18,7 +18,7 @@ Ethereum mainnet: _Not yet deployed_\
 
 | Name                                                                   | Description                                                                                                                              |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [**`IJBFundingCycleStore`**](../../interfaces/ijbfundingcyclestore.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Juicebox protocol's rules. |
+| [**`IJBFundingCycleStore`**](../../interfaces/ijbfundingcyclestore.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Candybox protocol's rules. |
 
 ### **Inheritance**
 

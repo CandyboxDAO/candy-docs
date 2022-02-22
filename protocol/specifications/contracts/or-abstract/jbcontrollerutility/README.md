@@ -14,13 +14,13 @@ description: >-
 
 ### Code
 
-{% embed url="https://github.com/jbx-protocol/juice-contracts-v2/blob/main/contracts/abstract/JBControllerUtility.sol" %}
+{% embed url="https://github.com/candyboxdao/candy-contracts-v2/blob/main/contracts/abstract/JBControllerUtility.sol" %}
 
 ### **Interfaces**
 
 | Name                                                                      | Description                                                                                                                              |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [**`IJBControllerUtility`**](../../../interfaces/ijbcontrollerutility.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Juicebox protocol's rules. |
+| [**`IJBControllerUtility`**](../../../interfaces/ijbcontrollerutility.md) | General interface for the methods in this contract that interact with the blockchain's state according to the Candybox protocol's rules. |
 
 ## Constructor
 

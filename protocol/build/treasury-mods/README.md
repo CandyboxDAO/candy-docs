@@ -1,6 +1,6 @@
 # Treasury mods
 
-Treasury mods allow projects to override or extend the default Juicebox protocol functionality with custom contract logic.
+Treasury mods allow projects to override or extend the default Candybox protocol functionality with custom contract logic.
 
 |                               |                                                                                                                                                                                                   |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

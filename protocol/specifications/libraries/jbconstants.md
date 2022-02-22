@@ -3,7 +3,7 @@
 ```solidity
 /**
   @notice
-  Global constants used across multiple Juicebox contracts.
+  Global constants used across multiple Candybox contracts.
 */
 library JBConstants {
   /** 

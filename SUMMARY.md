@@ -4,14 +4,14 @@
 
 ## 🌱 Getting Started
 
-* [Creating a Juicebox Project](getting-started/create-a-juicebox-project/README.md)
-  * [Project Details](getting-started/create-a-juicebox-project/project-details.md)
-  * [Funding](getting-started/create-a-juicebox-project/funding.md)
-  * [Distribution](getting-started/create-a-juicebox-project/distribution.md)
-  * [Reserved Tokens](getting-started/create-a-juicebox-project/reserved-tokens.md)
-  * [Reconfiguration](getting-started/create-a-juicebox-project/reconfiguration.md)
-  * [Incentives](getting-started/create-a-juicebox-project/incentives.md)
-  * [Restricted Actions](getting-started/create-a-juicebox-project/restricted-actions.md)
+* [Creating a Candybox Project](getting-started/create-a-candybox-project/README.md)
+  * [Project Details](getting-started/create-a-candybox-project/project-details.md)
+  * [Funding](getting-started/create-a-candybox-project/funding.md)
+  * [Distribution](getting-started/create-a-candybox-project/distribution.md)
+  * [Reserved Tokens](getting-started/create-a-candybox-project/reserved-tokens.md)
+  * [Reconfiguration](getting-started/create-a-candybox-project/reconfiguration.md)
+  * [Incentives](getting-started/create-a-candybox-project/incentives.md)
+  * [Restricted Actions](getting-started/create-a-candybox-project/restricted-actions.md)
 
 ## 📚 Resources
 
@@ -385,7 +385,7 @@
 
 ## Links
 
-* [Juicebox.money](https://juicebox.money)
-* [Github](https://github.com/jbx-protocol)
-* [Twitter](https://twitter.com/juiceboxETH)
+* [Candybox.money](https://candybox.money)
+* [Github](https://github.com/candyboxdao)
+* [Twitter](https://twitter.com/candyboxETH)
 * [Discord](https://discord.gg/5JsDvuyCPd)

@@ -1,5 +1,5 @@
 ---
-description: Offical subgraph for events and project analytics on the Juicebox protocol.
+description: Offical subgraph for events and project analytics on the Candybox protocol.
 ---
 
 # Subgraph
