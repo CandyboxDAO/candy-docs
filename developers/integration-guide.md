@@ -7,7 +7,7 @@ This guide is for users who would like to hook up their contract to a pre-existi
 Add the Candybox contract dependency to your project:
 
 ```
-$ yarn add @jbox/sol
+$ yarn add @candyboxdao/contracts-v1
 ```
 
 Inherit from `CandyboxProject` in your contract. You will need to provide a `Project ID` and [`Terminal Directory`](../protocol-v1/terminal-directory.md) address to the `CandyboxProject` constructor.
@@ -16,7 +16,7 @@ Inherit from `CandyboxProject` in your contract. You will need to provide a `Pro
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.6;
 
-import "@jbox/sol/contracts/abstract/CandyboxProject.sol";
+import "@candyboxdao/contracts-v1/contracts/abstract/CandyboxProject.sol";
 
 contract HelloWorldContract is CandyboxProject {
   ...
@@ -29,9 +29,3 @@ contract HelloWorldContract is CandyboxProject {
   ...
 }
 ```
-
-### Example Projects
-
-* [TileDAO](https://github.com/TileDAO/tiles/blob/main/contracts/Tiles.sol)
-* [WikiToken](https://github.com/odd-amphora/wiki.token/blob/main/packages/hardhat/contracts/Token.sol)
-* Add yours here!

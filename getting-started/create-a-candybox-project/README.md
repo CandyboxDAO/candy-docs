@@ -13,7 +13,7 @@ To create a Candybox Project, press 'connect' in the top right corner of the [ho
 Next, click on 'Design your Project' or scroll down. The left side of the project design wizard shows you all the necessary configuration steps, and the right side previews what your project will look like once created.
 
 {% hint style="info" %}
-Consider creating a test project on the Rinkeby testnet version of Candybox at [rinkeby.candybox.money](http://rinkeby.candybox.money) before creating project on Ethereum mainnet. To use the Rinkeby version of Candybox, you'll have to change your wallet to the Rinkeby network.
+Consider creating a test project on the BNBTestnet testnet version of Candybox at [bnbTestnet.candybox.money](http://bnbTestnet.candybox.money) before creating project on BNB Chain(BSC) mainnet. To use the BNBTestnet version of Candybox, you'll have to change your wallet to the BNBTestnet network.
 {% endhint %}
 
 {% embed url="https://youtu.be/I8euJjI5x1M" %}
