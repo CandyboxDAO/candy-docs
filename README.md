@@ -8,7 +8,7 @@ The Candybox protocol is not formally audited. All projects built on it may be v
 
 CandyBoxDAO is inspired by the juicebox project. Thanks the juicebox team for their great works. CandyBox's mission is to bring innovation further.
 
-Canybox make Community funding for people and projects easier.
+Candybox make Community funding for people and projects easier.
 
 It launch on BNB Chain (BSC), lower gas fee and quicker transactions.
 
