@@ -6,7 +6,7 @@ The Candybox protocol is not formally audited. All projects built on it may be v
 
 ## Welcome to Candybox docs!
 
-CandyBoxDAO is inspired by the jucibox project. Thanks the jucibox team for their great works. CandyBox's mission is to bring innovation further.
+CandyBoxDAO is inspired by the juicebox project. Thanks the juicebox team for their great works. CandyBox's mission is to bring innovation further.
 
 Canybox make Community funding for people and projects easier.
 
