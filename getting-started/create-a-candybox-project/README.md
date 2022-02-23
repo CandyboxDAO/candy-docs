@@ -13,9 +13,6 @@ To create a Candybox Project, press 'connect' in the top right corner of the [ho
 Next, click on 'Design your Project' or scroll down. The left side of the project design wizard shows you all the necessary configuration steps, and the right side previews what your project will look like once created.
 
 {% hint style="info" %}
-Consider creating a test project on the BNBTestnet testnet version of Candybox at [bnbTestnet.candybox.money](http://bnbTestnet.candybox.money) before creating project on BNB Chain(BSC) mainnet. To use the BNBTestnet version of Candybox, you'll have to change your wallet to the BNBTestnet network.
+Consider creating a test project on the bscTestnet testnet version of Candybox at [bscTestnet.candybox.money](http://bscTestnet.candybox.money) before creating project on BNB Chain(BSC) mainnet. To use the bscTestnet version of Candybox, you'll have to change your wallet to the bscTestnet network.
 {% endhint %}
 
-{% embed url="https://youtu.be/I8euJjI5x1M" %}
-_project creation tutorial for Candybox v1.0_
-{% endembed %}

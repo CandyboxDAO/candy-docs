@@ -1,5 +1,5 @@
 ---
-description: Addresses and BscScan links for deployed JB Protocol and CBX DAO contracts.
+description: Addresses and BscScan links for deployed CBX Protocol and CBX DAO contracts.
 ---
 
 # Contract Addresses
@@ -32,7 +32,7 @@ Governance: [`0x2e4728687bb38151d1dF72A50DF9663f0738bbde`](https://bscscan.com/a
 
 Prices: [`0xa7C434C234D17F833a906Bf0fE67D525F788E438`](https://bscscan.com/address/0xa7C434C234D17F833a906Bf0fE67D525F788E438)\`\`
 
-### bnbTestnet
+### bscTestnet
 
 [https://github.com/candyboxdao/candy-contracts/tree/main/deployments/bscTestnet](https://github.com/candyboxdao/candy-contracts/tree/main/deployments/bscTestnet)
 

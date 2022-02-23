@@ -13,9 +13,6 @@ As tokens are redeemed for ETH, the bonding curve continuously increases the val
 In this formula, **x** represents the amount of tokens being redeemed, **s** represents the total token supply, **o** represents the current overflow, and **r** represents the bonding curve rate.
 {% endhint %}
 
-{% embed url="https://youtu.be/dxqc3yMqi5M" %}
-Bonding Curve 101
-{% endembed %}
 
 
 
