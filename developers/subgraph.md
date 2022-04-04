@@ -4,7 +4,7 @@ description: Offical subgraph for events and project analytics on the Candybox p
 
 # Subgraph
 
-1. currently deploy on local-node
-2. will deploy on TheGraph in the future
+**BNBChain hosted service**
+https://api.thegraph.com/subgraphs/name/candyboxdao/candybox
 
 
